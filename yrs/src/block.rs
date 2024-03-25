@@ -1087,7 +1087,7 @@ impl Block {
                             encoder.write_left_id(id);
                         }
                         TypePtr::Unknown => {
-                            panic!("Couldn't get item's parent")
+                            // panic!("Couldn't get item's parent")
                         }
                     }
                     if let Some(parent_sub) = item.parent_sub.as_ref() {

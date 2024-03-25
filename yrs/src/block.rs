@@ -931,7 +931,7 @@ impl BlockSlice {
                             encoder.write_left_id(id);
                         }
                         TypePtr::Unknown => {
-                            panic!("Couldn't get item's parent")
+                            // panic!("Couldn't get item's parent")
                         }
                     }
 
